@@ -1,0 +1,90 @@
+/**index.wxss**/
+.navBar{
+  border-bottom: 1px solid #ccc;
+  position:relative;
+}
+.navBar .title{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%);
+  font-size: 30rpx;
+}
+.navBar .bg{
+  width:750rpx;
+}
+.container{
+  position:fixed;
+  bottom:100rpx;
+  left:0;
+  width:750rpx;
+  z-index:100;
+}
+
+.swiperWrap{
+  width:750rpx;
+  height:280rpx;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.swiperWrap swiper{
+  width:700rpx;
+  height:280rpx;
+  border-radius:30rpx;
+}
+.swiperWrap .swiperItem{
+  width:700rpx;
+  height:280rpx;
+  border-radius:30rpx;
+}
+.swiperWrap .swiperItem image{
+  width:100%;
+  height:100%;
+}
+.gridList{
+  margin-top: 10rpx;
+  background-color: #fff;
+}
+.gridList .gridItem{
+  padding:10rpx 0 0 !important;
+}
+.gridList .gridContent{
+  padding:40rpx 0 0 !important;
+}
+.gridList .gridItem-text{
+  margin-top: 44rpx !important;
+}
+.tuijian{
+  width:750rpx;
+  height:100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:20rpx;
+  background-color: #fff;
+}
+.tuijian image{
+  height:80rpx;
+}
+.product image{
+  width:360rpx;
+  height:360rpx;
+}
+.product .title{
+  display: flex;
+  height:80rpx;
+  align-items: center;
+  font-size:30rpx;
+  white-space: nowrap;
+}
+.product .title image{
+  width:80rpx;
+  height:40rpx;
+}
+.product .title text{
+  width:270rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-left:10rpx;
+}

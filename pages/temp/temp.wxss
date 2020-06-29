@@ -1,0 +1,20 @@
+
+.navBar{
+  border-bottom: 1px solid #ccc;
+  position:relative;
+}
+.navBar .title{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%);
+  font-size: 30rpx;
+}
+
+.container{
+  position:fixed;
+  bottom:100rpx;
+  left:0;
+  width:750rpx;
+  z-index:100;
+}

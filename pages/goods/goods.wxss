@@ -1,0 +1,69 @@
+/* pages/goods/goods.wxss */
+.navBar{
+  border-bottom: 1px solid #ccc;
+  position:relative;
+}
+.navBar image{
+  position: absolute;
+  left:20rpx;
+  bottom:30rpx;
+  width:40rpx;
+  height:40rpx;
+  z-index:100;
+}
+.navBar .title{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%);
+  font-size: 30rpx;
+}
+
+.container{
+  position:fixed;
+  bottom:100rpx;
+  left:0;
+  width:750rpx;
+  z-index:100;
+}
+.swiperWrap,swiper,.swiperWrap image{
+  width:750rpx;
+  height:600rpx;
+}
+.service-policy{
+  width:750rpx;
+  height:73rpx;
+  background-color: #f4f4f4;
+  padding:0 31rpx;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size:24rpx;
+  box-sizing:border-box;
+}
+.service-policy .item{
+  background: url('http://nos.netease.com/mailpub/hxm/yanxuan-wap/p/20150730/style/img/icon-normal/servicePolicyRed-518d32d74b.png') no-repeat 0 center;
+  background-size: 10rpx;
+  padding-left: 15rpx;
+  display: flex;
+  align-items: center;
+  font-size: 25rpx;
+  color:#666;
+}
+.pheader{
+  width:750rpx;
+  height:150rpx;
+  display:flex;
+  align-items: center;  
+  margin:0 20rpx;
+}
+.pheader .img{
+  width:100rpx;
+  height:100rpx;
+  border-radius:50rpx;
+  margin:0 20rpx;
+}
+.comment{
+  padding:20rpx 40rpx;
+  border-bottom:1px solid #ccc;
+}

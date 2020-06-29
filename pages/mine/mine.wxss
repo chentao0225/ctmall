@@ -1,0 +1,51 @@
+/* pages/mine/mine.wxss */
+
+.navBar{
+  border-bottom: 1px solid #ccc;
+  position:relative;
+}
+.navBar .title{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%);
+  font-size: 30rpx;
+}
+
+.container{
+  position:fixed;
+  bottom:100rpx;
+  left:0;
+  width:750rpx;
+  z-index:100;
+}
+.profileInfo{
+  width: 750rpx;
+  height:280rpx;
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding:0 32rpx;
+  background: #333;
+  box-sizing: border-box;
+}
+.profileInfo .avatar{
+  width:160rpx;
+  height:160rpx;
+  border-radius: 80rpx;
+}
+.profileInfo .info text{
+  height:45rpx;
+  line-height: 45rpx;
+  color:#fff;
+  font-size:38rpx;
+  padding:0 30rpx;
+}
+.profileInfo .info button{
+  width:200rpx;
+  height:80rpx;
+  border: none;
+  background: #ccc;
+  color: #fff;
+  margin-left: 60rpx;
+}
